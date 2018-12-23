@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 
 namespace NetNativeLibLoader.Loader
 {
-    public class WindowsPlatformLoader : PlatformLoaderBase
+    internal class WindowsPlatformLoader : PlatformLoaderBase
     {
         protected override IntPtr LoadLibraryInternal(string path)
         {

@@ -4,7 +4,7 @@ using System.Reflection;
 
 namespace NetNativeLibLoader.PathResolver
 {
-    public class LocalPathResolver : IPathResolver
+    internal class LocalPathResolver : IPathResolver
     {
         private readonly string _entryAssemblyDirectory;
         private readonly string _executingAssemblyDirectory;

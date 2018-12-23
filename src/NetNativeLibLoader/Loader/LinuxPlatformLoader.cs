@@ -1,6 +1,6 @@
 namespace NetNativeLibLoader.Loader
 {
-    public class LinuxPlatformLoader : UnixPlatformLoader
+    internal class LinuxPlatformLoader : UnixPlatformLoader
     {
         /// <inheritdoc />
         protected override bool UseCLibrary => false;

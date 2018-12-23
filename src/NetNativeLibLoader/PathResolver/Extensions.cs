@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace NetNativeLibLoader.PathResolver
 {
-    public static class Extensions
+    internal static class Extensions
     {
         public static bool IsValidPath(this string @this)
         {

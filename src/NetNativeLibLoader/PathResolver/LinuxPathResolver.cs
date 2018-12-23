@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace NetNativeLibLoader.PathResolver
 {
-    public class LinuxPathResolver : IPathResolver
+    internal class LinuxPathResolver : IPathResolver
     {
         public ResolvePathResult Resolve(string library)
         {

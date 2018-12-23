@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace NetNativeLibLoader.PathResolver
 {
-    public class MacOSPathResolver : IPathResolver
+    internal class MacOSPathResolver : IPathResolver
     {
         private static readonly IReadOnlyList<string> EnvironmentVariables = new[]
         {

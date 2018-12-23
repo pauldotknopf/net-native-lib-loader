@@ -29,7 +29,7 @@ namespace NetNativeLibLoader.Loader
                 Temporary hack until BSD is added to RuntimeInformation. OSDescription should contain the output from
                 "uname -srv", which will report something along the lines of FreeBSD or OpenBSD plus some more info.
             */
-            bool isBSD = RuntimeInformation.OSDescription.ToUpperInvariant().Contains("BSD");
+            var isBSD = RuntimeInformation.OSDescription.ToUpperInvariant().Contains("BSD");
             if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX) || isBSD)
             {
                 return new BSDPlatformLoader();

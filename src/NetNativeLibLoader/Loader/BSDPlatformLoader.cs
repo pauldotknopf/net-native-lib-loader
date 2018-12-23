@@ -1,6 +1,6 @@
 namespace NetNativeLibLoader.Loader
 {
-    public class BSDPlatformLoader : UnixPlatformLoader
+    internal class BSDPlatformLoader : UnixPlatformLoader
     {
         protected override bool UseCLibrary => true;
     }

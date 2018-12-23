@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 
 namespace NetNativeLibLoader.Loader
 {
-    public abstract class UnixPlatformLoader : PlatformLoaderBase
+    internal abstract class UnixPlatformLoader : PlatformLoaderBase
     {
         protected abstract bool UseCLibrary { get; }
         private readonly Action _resetErrorAction;

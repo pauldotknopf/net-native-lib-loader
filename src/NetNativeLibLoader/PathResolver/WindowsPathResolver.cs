@@ -5,7 +5,7 @@ using System.Reflection;
 
 namespace NetNativeLibLoader.PathResolver
 {
-    public class WindowsPathResolver : IPathResolver
+    internal class WindowsPathResolver : IPathResolver
     {
         public ResolvePathResult Resolve(string library)
         {
