@@ -1,0 +1,11 @@
+<Project>
+  <Import Project="version.props" />
+  <PropertyGroup>
+    <Authors>Paul Knopf</Authors>
+    <Description>Load native libraries and export symbols.</Description>
+    <Copyright>2018</Copyright>
+    <PackageLicenseUrl>https://github.com/pauldotknopf/net-native-lib-loader/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/pauldotknopf/net-native-lib-loader</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/pauldotknopf/net-native-lib-loader</RepositoryUrl>
+  </PropertyGroup>
+</Project>
